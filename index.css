@@ -19,6 +19,17 @@ html{
   padding-top: 20%;
 }
 
+.right-button{
+  background-color: #41485f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
 #title{
   width:101%;
   display: flex;
@@ -27,10 +38,23 @@ html{
   padding-bottom: 2.5%;
 }
 
+#title-content{
+  margin-top: 6%;
+  font-size: 1rem;
+  line-height: 0.8;
+  letter-spacing: 1.5px;
+  color: rgb(71,71,71);
+}
+#title-content2{
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  color: rgb(71,71,71);
+}
 #imgbox{
-  margin-top: -5%;
+  margin-top: -8%;
   margin-left: 10%;
-  width:25%;
+  width:27%;
 }
 
 #imgbox img{
@@ -49,8 +73,15 @@ html{
   margin-top: 25px;
   font-size: 5rem;
   font-weight: 900;
-  
 }
+
+#intro-title a {
+    text-decoration: none; 
+    font-size: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
 
 #intro-content{
   font-size: 2rem;
@@ -58,15 +89,16 @@ html{
 }
 #intro-content2{
   margin-top: 15px;
-  font-size: 1.3rem;
-  line-height: 2;
+  font-size: 1.18rem;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
 }
 
 #second{
   width:101%;
   display: flex;
   justify-content: space-between;
-  background-color: rgba(7, 112, 141, 0.881);
+  background-color: rgba(64, 78, 97, 0.881);
   padding-bottom: 3%;
 }
 
@@ -87,6 +119,7 @@ html{
   font-size: 1.3rem;
   font-weight: 600;
   font-size: 25px;
+  letter-spacing: 1.5px;
 
 }
 
