@@ -1,0 +1,186 @@
+html {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Noto Serif TC", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#main {
+  width: 90%;
+  align-self: center;
+  margin: 2% 5% 0%;
+}
+
+#img-box {
+  background-color: black;
+  width: 90dvw;
+  height: 90dvh;
+  border-radius: 5%;
+}
+
+#main-bg {
+  background-image: url(./img/airplane.jpg);
+  width: 90dvw;
+  height: 90dvh;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  background-size: cover;
+  background-position: center center;
+  opacity: 40%;
+}
+
+#main-content-right {
+  position: absolute;
+  top: 50%;
+  right: 15%;
+}
+
+#main-content-left {
+  position: absolute;
+  top: 37%;
+  left: 15%;
+  color: aliceblue;
+  padding: 5px;
+}
+
+select {
+  background: #062a4dc6;
+  color: #fafafa;
+  margin: 15px;
+  width: 300px;
+  height: 3%;
+  padding: 8px;
+  position: relative;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#chart {
+  width: 90%;
+  align-self: center;
+  margin: 2% 5% 0%;
+  position: relative;
+  z-index: 1;
+}
+
+#chart-main {
+  margin: 0 2.5%;
+  position: relative;
+  padding-bottom: 1%;
+}
+
+#chart-bg-box {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#chart-bg {
+  background-image: url(./img/airplane.jpg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  background-size: cover;
+  background-position: center center;
+  opacity: 40%;
+}
+
+#chart-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+
+#nav-title {
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+#chart-chart {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  height: 75%;
+  width: 100%;
+  border-radius: 10px 0 10px 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.chart-btn {
+  border: none;
+  border-radius: 6px 6px 0% 0%;
+  width: 5rem;
+  height: 3rem;
+  background-color: rgba(54, 162, 235, 0.8);
+  margin-left: -5px;
+  font-size: 1.1rem;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.chart-btn:hover {
+  background-color: rgba(54, 162, 235, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.chart-btn:focus {
+  background-color: rgba(54, 162, 235, 1);
+  outline: none;
+}
+
+/* 表格區域背景 */
+#table-section {
+  position: relative;
+  width: 90%;
+  align-self: center;
+  margin: 2% 5% 0%;
+}
+
+#table-bg-box {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#table-bg {
+  background-image: url(./img/airplane.jpg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  background-size: cover;
+  background-position: center center;
+  opacity: 40%;
+}
+
+#table-main {
+  position: relative;
+  z-index: 1;
+  margin: 0 2.5%;
+  padding: 3% 0;
+}
+
+#table-title {
+  font-size: 1.5rem;
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 30px;
+}
